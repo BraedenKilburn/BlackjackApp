@@ -7,18 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8703B6FE28E4A6DD0005CC22 /* HandDisplayVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8703B6FD28E4A6DD0005CC22 /* HandDisplayVM.swift */; };
+		8703B70028E4A7700005CC22 /* deck_of_cards.json in Resources */ = {isa = PBXBuildFile; fileRef = 8703B6FF28E4A7700005CC22 /* deck_of_cards.json */; };
+		8703B70228E4B4350005CC22 /* LoadJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8703B70128E4B4350005CC22 /* LoadJSON.swift */; };
+		870F582228E361B700A79F12 /* PlayerHandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870F582128E361B600A79F12 /* PlayerHandView.swift */; };
+		870F582428E361D800A79F12 /* DealerHandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870F582328E361D800A79F12 /* DealerHandView.swift */; };
+		870F582628E3623300A79F12 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870F582528E3623300A79F12 /* Player.swift */; };
+		870F582828E362C000A79F12 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870F582728E362C000A79F12 /* GameState.swift */; };
+		871D219C28F7D07A00E70CE9 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871D219B28F7D07A00E70CE9 /* Color.swift */; };
+		871D219F28F7D22200E70CE9 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871D219E28F7D22200E70CE9 /* ThemeView.swift */; };
+		871D21A128F7D91700E70CE9 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871D21A028F7D91700E70CE9 /* Theme.swift */; };
+		8752FC0D28F8ABD700A31449 /* FileSystemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8752FC0C28F8ABD700A31449 /* FileSystemService.swift */; };
+		8752FC0F28F8D62A00A31449 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8752FC0E28F8D62A00A31449 /* FooterView.swift */; };
+		87628C8428F8673B00CB80BD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87628C8328F8673B00CB80BD /* SettingsView.swift */; };
+		87628C8628F87B9C00CB80BD /* GameHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87628C8528F87B9C00CB80BD /* GameHistoryView.swift */; };
+		87746A0A28F5BD18008059AF /* NavbarBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87746A0928F5BD18008059AF /* NavbarBackButton.swift */; };
+		87746A0D28F5C696008059AF /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87746A0C28F5C696008059AF /* Result.swift */; };
+		87746A0F28F5CC06008059AF /* FloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87746A0E28F5CC06008059AF /* FloatExtension.swift */; };
+		87746A1228F5D56B008059AF /* NavigationLinkExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87746A1128F5D56B008059AF /* NavigationLinkExtension.swift */; };
+		87810F4B28E5E04E002FA732 /* ButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87810F4A28E5E04E002FA732 /* ButtonViewModel.swift */; };
+		87810F4D28E5E112002FA732 /* OptionButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87810F4C28E5E112002FA732 /* OptionButtons.swift */; };
+		87810F5228E60C6A002FA732 /* HandValueBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87810F5128E60C6A002FA732 /* HandValueBadge.swift */; };
 		879D04F128DAA63A0098846A /* BlackjackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879D04F028DAA63A0098846A /* BlackjackApp.swift */; };
-		879D04F328DAA63A0098846A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879D04F228DAA63A0098846A /* ContentView.swift */; };
+		879D04F328DAA63A0098846A /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879D04F228DAA63A0098846A /* GameView.swift */; };
 		879D04F528DAA63B0098846A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879D04F428DAA63B0098846A /* Assets.xcassets */; };
 		879D04F828DAA63B0098846A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879D04F728DAA63B0098846A /* Preview Assets.xcassets */; };
+		87B3259728EC99060017D8DF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B3259628EC99060017D8DF /* CardView.swift */; };
+		87BAB30128DB6C5300DDF608 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BAB30028DB6C5300DDF608 /* Card.swift */; };
+		87C1E28328EB54B3002F2418 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C1E28228EB54B3002F2418 /* HomePage.swift */; };
+		87D346A828EBEBCD0036F263 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D346A728EBEBCD0036F263 /* MessageView.swift */; };
+		87E51D6F28F5AF08007F68CF /* PlaceBetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E51D6E28F5AF08007F68CF /* PlaceBetView.swift */; };
+		87E51D7328F5BAC5007F68CF /* PlayerCreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E51D7228F5BAC5007F68CF /* PlayerCreditView.swift */; };
+		87ED709C28F6401F00913DF2 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ED709B28F6401F00913DF2 /* SoundManager.swift */; };
+		87ED70A028F6424400913DF2 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 87ED709E28F6424400913DF2 /* win.wav */; };
+		87ED70A128F6424400913DF2 /* whoosh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 87ED709F28F6424400913DF2 /* whoosh.wav */; };
+		87ED70A328F644EC00913DF2 /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = 87ED70A228F644EC00913DF2 /* lose.wav */; };
+		87ED70A528F6467500913DF2 /* push.wav in Resources */ = {isa = PBXBuildFile; fileRef = 87ED70A428F6467500913DF2 /* push.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8703B6FD28E4A6DD0005CC22 /* HandDisplayVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandDisplayVM.swift; sourceTree = "<group>"; };
+		8703B6FF28E4A7700005CC22 /* deck_of_cards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = deck_of_cards.json; sourceTree = "<group>"; };
+		8703B70128E4B4350005CC22 /* LoadJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadJSON.swift; sourceTree = "<group>"; };
+		870F582128E361B600A79F12 /* PlayerHandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerHandView.swift; sourceTree = "<group>"; };
+		870F582328E361D800A79F12 /* DealerHandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerHandView.swift; sourceTree = "<group>"; };
+		870F582528E3623300A79F12 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		870F582728E362C000A79F12 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		871D219B28F7D07A00E70CE9 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		871D219E28F7D22200E70CE9 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		871D21A028F7D91700E70CE9 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		8752FC0C28F8ABD700A31449 /* FileSystemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystemService.swift; sourceTree = "<group>"; };
+		8752FC0E28F8D62A00A31449 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		87628C8328F8673B00CB80BD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		87628C8528F87B9C00CB80BD /* GameHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHistoryView.swift; sourceTree = "<group>"; };
+		87746A0928F5BD18008059AF /* NavbarBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavbarBackButton.swift; sourceTree = "<group>"; };
+		87746A0C28F5C696008059AF /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		87746A0E28F5CC06008059AF /* FloatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatExtension.swift; sourceTree = "<group>"; };
+		87746A1128F5D56B008059AF /* NavigationLinkExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkExtension.swift; sourceTree = "<group>"; };
+		87810F4A28E5E04E002FA732 /* ButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewModel.swift; sourceTree = "<group>"; };
+		87810F4C28E5E112002FA732 /* OptionButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionButtons.swift; sourceTree = "<group>"; };
+		87810F5028E5FDAA002FA732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		87810F5128E60C6A002FA732 /* HandValueBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandValueBadge.swift; sourceTree = "<group>"; };
 		879D04ED28DAA63A0098846A /* Blackjack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blackjack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		879D04F028DAA63A0098846A /* BlackjackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackjackApp.swift; sourceTree = "<group>"; };
-		879D04F228DAA63A0098846A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		879D04F228DAA63A0098846A /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		879D04F428DAA63B0098846A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		879D04F728DAA63B0098846A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87B3259628EC99060017D8DF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		87BAB30028DB6C5300DDF608 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		87C1E28228EB54B3002F2418 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		87D346A728EBEBCD0036F263 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		87E51D6E28F5AF08007F68CF /* PlaceBetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceBetView.swift; sourceTree = "<group>"; };
+		87E51D7228F5BAC5007F68CF /* PlayerCreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCreditView.swift; sourceTree = "<group>"; };
+		87ED709B28F6401F00913DF2 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		87ED709E28F6424400913DF2 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		87ED709F28F6424400913DF2 /* whoosh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whoosh.wav; sourceTree = "<group>"; };
+		87ED70A228F644EC00913DF2 /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lose.wav; sourceTree = "<group>"; };
+		87ED70A428F6467500913DF2 /* push.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = push.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +97,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		871D219D28F7D20C00E70CE9 /* StartGameView */ = {
+			isa = PBXGroup;
+			children = (
+				87746A1328F5DFC5008059AF /* TableView */,
+				87E51D6C28F5ADE4007F68CF /* HandView */,
+				87746A0B28F5BEAB008059AF /* NavigationBarView */,
+			);
+			name = StartGameView;
+			sourceTree = "<group>";
+		};
+		8752FC1228F8DB6600A31449 /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				87628C8328F8673B00CB80BD /* SettingsView.swift */,
+				8752FC0E28F8D62A00A31449 /* FooterView.swift */,
+			);
+			name = SettingsView;
+			sourceTree = "<group>";
+		};
+		87746A0B28F5BEAB008059AF /* NavigationBarView */ = {
+			isa = PBXGroup;
+			children = (
+				87E51D7228F5BAC5007F68CF /* PlayerCreditView.swift */,
+				87746A0928F5BD18008059AF /* NavbarBackButton.swift */,
+			);
+			name = NavigationBarView;
+			sourceTree = "<group>";
+		};
+		87746A1028F5CC13008059AF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				871D219B28F7D07A00E70CE9 /* Color.swift */,
+				87746A0E28F5CC06008059AF /* FloatExtension.swift */,
+				87746A1128F5D56B008059AF /* NavigationLinkExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		87746A1328F5DFC5008059AF /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				879D04F228DAA63A0098846A /* GameView.swift */,
+				87810F4C28E5E112002FA732 /* OptionButtons.swift */,
+				87D346A728EBEBCD0036F263 /* MessageView.swift */,
+				87E51D6E28F5AF08007F68CF /* PlaceBetView.swift */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
 		879D04E428DAA63A0098846A = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +165,17 @@
 		879D04EF28DAA63A0098846A /* Blackjack */ = {
 			isa = PBXGroup;
 			children = (
-				879D04F028DAA63A0098846A /* BlackjackApp.swift */,
-				879D04F228DAA63A0098846A /* ContentView.swift */,
+				87E51D6D28F5ADFF007F68CF /* App */,
+				879D050028DAA6740098846A /* ViewModel */,
+				879D04FF28DAA66E0098846A /* View */,
+				879D04FE28DAA6690098846A /* Model */,
+				87ED709D28F640AC00913DF2 /* Sounds */,
+				87746A1028F5CC13008059AF /* Extensions */,
 				879D04F428DAA63B0098846A /* Assets.xcassets */,
+				8703B6FF28E4A7700005CC22 /* deck_of_cards.json */,
 				879D04F628DAA63B0098846A /* Preview Content */,
+				8703B70128E4B4350005CC22 /* LoadJSON.swift */,
+				87810F5028E5FDAA002FA732 /* Info.plist */,
 			);
 			path = Blackjack;
 			sourceTree = "<group>";
@@ -65,6 +186,71 @@
 				879D04F728DAA63B0098846A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		879D04FE28DAA6690098846A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				87BAB30028DB6C5300DDF608 /* Card.swift */,
+				870F582528E3623300A79F12 /* Player.swift */,
+				870F582728E362C000A79F12 /* GameState.swift */,
+				87746A0C28F5C696008059AF /* Result.swift */,
+				871D21A028F7D91700E70CE9 /* Theme.swift */,
+				8752FC0C28F8ABD700A31449 /* FileSystemService.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		879D04FF28DAA66E0098846A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8752FC1228F8DB6600A31449 /* SettingsView */,
+				871D219D28F7D20C00E70CE9 /* StartGameView */,
+				871D219E28F7D22200E70CE9 /* ThemeView.swift */,
+				87628C8528F87B9C00CB80BD /* GameHistoryView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		879D050028DAA6740098846A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8703B6FD28E4A6DD0005CC22 /* HandDisplayVM.swift */,
+				87810F4A28E5E04E002FA732 /* ButtonViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		87E51D6C28F5ADE4007F68CF /* HandView */ = {
+			isa = PBXGroup;
+			children = (
+				87B3259628EC99060017D8DF /* CardView.swift */,
+				870F582128E361B600A79F12 /* PlayerHandView.swift */,
+				870F582328E361D800A79F12 /* DealerHandView.swift */,
+				87810F5128E60C6A002FA732 /* HandValueBadge.swift */,
+			);
+			name = HandView;
+			sourceTree = "<group>";
+		};
+		87E51D6D28F5ADFF007F68CF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				879D04F028DAA63A0098846A /* BlackjackApp.swift */,
+				87C1E28228EB54B3002F2418 /* HomePage.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		87ED709D28F640AC00913DF2 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				87ED70A428F6467500913DF2 /* push.wav */,
+				87ED70A228F644EC00913DF2 /* lose.wav */,
+				87ED709F28F6424400913DF2 /* whoosh.wav */,
+				87ED709E28F6424400913DF2 /* win.wav */,
+				87ED709B28F6401F00913DF2 /* SoundManager.swift */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +311,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87ED70A528F6467500913DF2 /* push.wav in Resources */,
 				879D04F828DAA63B0098846A /* Preview Assets.xcassets in Resources */,
+				87ED70A028F6424400913DF2 /* win.wav in Resources */,
 				879D04F528DAA63B0098846A /* Assets.xcassets in Resources */,
+				87ED70A328F644EC00913DF2 /* lose.wav in Resources */,
+				8703B70028E4A7700005CC22 /* deck_of_cards.json in Resources */,
+				87ED70A128F6424400913DF2 /* whoosh.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +328,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				879D04F328DAA63A0098846A /* ContentView.swift in Sources */,
+				87746A1228F5D56B008059AF /* NavigationLinkExtension.swift in Sources */,
+				87E51D7328F5BAC5007F68CF /* PlayerCreditView.swift in Sources */,
+				87810F4D28E5E112002FA732 /* OptionButtons.swift in Sources */,
+				87746A0D28F5C696008059AF /* Result.swift in Sources */,
+				879D04F328DAA63A0098846A /* GameView.swift in Sources */,
+				87810F5228E60C6A002FA732 /* HandValueBadge.swift in Sources */,
 				879D04F128DAA63A0098846A /* BlackjackApp.swift in Sources */,
+				87B3259728EC99060017D8DF /* CardView.swift in Sources */,
+				870F582428E361D800A79F12 /* DealerHandView.swift in Sources */,
+				871D219C28F7D07A00E70CE9 /* Color.swift in Sources */,
+				87ED709C28F6401F00913DF2 /* SoundManager.swift in Sources */,
+				870F582628E3623300A79F12 /* Player.swift in Sources */,
+				871D21A128F7D91700E70CE9 /* Theme.swift in Sources */,
+				87C1E28328EB54B3002F2418 /* HomePage.swift in Sources */,
+				87746A0A28F5BD18008059AF /* NavbarBackButton.swift in Sources */,
+				87E51D6F28F5AF08007F68CF /* PlaceBetView.swift in Sources */,
+				8703B70228E4B4350005CC22 /* LoadJSON.swift in Sources */,
+				871D219F28F7D22200E70CE9 /* ThemeView.swift in Sources */,
+				87BAB30128DB6C5300DDF608 /* Card.swift in Sources */,
+				87628C8628F87B9C00CB80BD /* GameHistoryView.swift in Sources */,
+				87810F4B28E5E04E002FA732 /* ButtonViewModel.swift in Sources */,
+				870F582828E362C000A79F12 /* GameState.swift in Sources */,
+				870F582228E361B700A79F12 /* PlayerHandView.swift in Sources */,
+				87D346A828EBEBCD0036F263 /* MessageView.swift in Sources */,
+				8752FC0F28F8D62A00A31449 /* FooterView.swift in Sources */,
+				8752FC0D28F8ABD700A31449 /* FileSystemService.swift in Sources */,
+				87746A0F28F5CC06008059AF /* FloatExtension.swift in Sources */,
+				8703B6FE28E4A6DD0005CC22 /* HandDisplayVM.swift in Sources */,
+				87628C8428F8673B00CB80BD /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -249,6 +468,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -270,9 +490,9 @@
 				DEVELOPMENT_TEAM = JC42738BAR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Blackjack/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +519,9 @@
 				DEVELOPMENT_TEAM = JC42738BAR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Blackjack/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

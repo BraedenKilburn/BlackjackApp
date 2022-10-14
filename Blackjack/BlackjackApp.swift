@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct BlackjackApp: App {
+    @AppStorage("isDarkMode") private var isDarkMode = false
+    @AppStorage("isSoundOn") private var isSoundOn = true
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomePage()
+            .preferredColorScheme(isDarkMode ? .dark : .light)
         }
     }
 }
